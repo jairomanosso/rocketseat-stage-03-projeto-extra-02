@@ -120,6 +120,11 @@ main article #rating img {
     height: 4rem;
 }
 
+main article #rating img:hover{
+    filter: contrast(110%) saturate(160%);
+    cursor: pointer;
+}
+
 main article p {
     line-height: 2.4rem;
 }
@@ -152,6 +157,13 @@ section div#related-articles div.article-item img{
     height: 8rem;
     object-fit: cover;
     border-radius: .5rem;
+    transition: all 200ms ease-out;
+}
+
+section div#related-articles div.article-item img:hover{
+    filter: contrast(110%) saturate(150%);
+    transform: scale(1.1) rotate(-2deg);
+    cursor: pointer;
 }
 
 section div#related-articles div.article-item div.article-item-description {
